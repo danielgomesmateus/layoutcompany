@@ -11,9 +11,11 @@
 
   const btnSubmitContact = document.getElementById('btnSubmitContact');
 
-  btnSubmitContact.addEventListener('click', (e) => {
-    validateForm(e);
-  });
+  if(btnSubmitContact != null) {
+    btnSubmitContact.addEventListener('click', (e) => {
+      validateForm(e);
+    });
+  }
 
   Array.from(allFields).forEach((item) => {
     item.addEventListener('change', (e) => {
