@@ -500,3 +500,17 @@ i.red{
     margin-top: 5px;
     border-radius: 2px;
 }
+
+.message.success,
+.message.error {
+    background: #449D44;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.message.error  {
+    background: #D9534F;
+}
