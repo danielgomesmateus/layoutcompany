@@ -1,6 +1,7 @@
 html,
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #ECF0F5;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -504,13 +505,39 @@ i.red{
 .message.success,
 .message.error {
     background: #449D44;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #FFF;
     font-weight: bold;
+    text-align: center;
 }
 
 .message.error  {
     background: #D9534F;
+}
+
+.content-form {
+    background: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 3px solid #D33C44;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #D2D6DE;
+}
+
+.btn {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-submit,
+.btn-submit:hover {
+    background-color: #D33C44;
+    border-color: #D33C44;
+    color: #FFF;
 }
