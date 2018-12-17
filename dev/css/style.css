@@ -225,12 +225,6 @@ hr {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.fade-carousel .slides .slide-1 {
-  background-image: url(../images/calculator-385506_1920.jpg);
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url(../images/paperwork-3154814_1920.jpg);
-}
 
 @media screen and (min-width: 980px){
     .hero { width: 980px; }
